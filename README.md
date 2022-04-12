@@ -1,5 +1,8 @@
+# TU Studio Documentation
 
+Repository for generating the online and print version of the documentation for working in the TU Studio.
 
+See the latest release here: https://tu-studio.github.io/studio-docs/
 
 
 # For Developers Only
@@ -8,14 +11,28 @@
 
 - Install mkdocs
 
-- install  material theme
+- Install  material theme
 
-  pip install mkdocs-material
+```console
+  $ pip3 install mkdocs-material
+```
 
-- install PDF
+- Install mkdocs PDF Tools
 
-  pip3 install mkdocs-with-pdf
+```console
+  $ pip3 install mkdocs-with-pdf
+```
 
 ## Build and Deploy
 
-mkdocs build
+Create the documentation on your machine:
+
+```console
+  $ mkdocs build
+```
+
+Deploy to github pages - works only with permissions for the repository:
+
+```console
+  $ mkdocs gh-deploy
+```

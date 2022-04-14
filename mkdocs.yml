@@ -1,4 +1,4 @@
-site_name: Studio-Docs
+site_name: TU Studio Documentation
 repo_url: https://github.com/TU-Studio/studio-docs
 
 theme:
@@ -16,6 +16,8 @@ plugins:
 #      cite_style: "pandoc"
 extra:
     generator: false
+
+copyright: 2022 - TU Studio Team - Henrik von Coler, Paul Schuladen, Nils Tonnätt 
 
 markdown_extensions:
   - attr_list

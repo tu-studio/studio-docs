@@ -2,8 +2,7 @@
 
 Repository for generating the online and print version of the documentation for working in the TU Studio.
 
-See the latest release here: https://tu-studio.github.io/studio-docs/
-
+See the latest release of the documentation here: https://tu-studio.github.io/studio-docs/
 
 # For Developers Only
 
@@ -11,7 +10,7 @@ See the latest release here: https://tu-studio.github.io/studio-docs/
 
 - Install mkdocs
 
-- Install  material theme
+- Install the material theme
 
 ```console
   $ pip3 install mkdocs-material

@@ -337,9 +337,47 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          E-N 325 Seamless Mode
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         E-N 325 Seamless Mode
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#important" class="md-nav__link">
+    Important
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quickguide-seamless-system" class="md-nav__link">
+    Quickguide Seamless System
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -372,6 +410,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#important" class="md-nav__link">
+    Important
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quickguide-seamless-system" class="md-nav__link">
+    Quickguide Seamless System
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -389,6 +449,50 @@
 
 
 <h1 id="e-n-325-seamless-mode">E-N 325 Seamless Mode</h1>
+<h2 id="important">Important</h2>
+<ul>
+<li>Turn off the WFS-Panels when leaving</li>
+<li>Make sure the power is turned off (power key 0) when leaving the studio</li>
+<li>Leave the place tidy (e.g. move table back, move chairs to the back)</li>
+</ul>
+<h2 id="quickguide-seamless-system">Quickguide Seamless System</h2>
+<ol>
+<li>Turn the power key to I (beside the door)</li>
+<li>Plugin USB-MADIface<ul>
+<li>Options -&gt; Reset Mix -&gt; Straight Playback (when connected the first time)</li>
+<li>Outputfader can be linked to create a "masterfader"</li>
+</ul>
+</li>
+<li>In the machineroom turn on<ul>
+<li>Riviera: OscRouter, Ambisonics, WFS 1-64</li>
+<li>Wintermute: WFS 65-192</li>
+<li>Taunus: Dante-Madi Conversion</li>
+</ul>
+</li>
+<li>In the machineroom set MADI-Bridge<ul>
+<li>Out 8 &lt;- In 6 (seamless mode)</li>
+<li>Out 8 &lt;- In 5 (Madiface Direct)</li>
+</ul>
+</li>
+<li>Turn on<ul>
+<li>Ambisonics speaker with switch besides the door</li>
+<li>WFS-Panels with switches under the Dante-Network switch</li>
+</ul>
+</li>
+<li>The seamless system is controled via OSC e.g. with the seamless plugins<ul>
+<li>ip-address: xxx.xxx.xxx.24</li>
+<li>port (oscrouter): 4455</li>
+<li>port (reverb/master): 57120</li>
+</ul>
+</li>
+<li>play audio through madiface<ul>
+<li>1-32 Sources </li>
+<li>33-36 Ambisonics 1st Order</li>
+<li>37-52 Ambisonics 3rd Order</li>
+<li>53 LFE direct</li>
+</ul>
+</li>
+</ol>
 
               
             </article>

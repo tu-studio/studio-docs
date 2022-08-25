@@ -15,7 +15,7 @@ plugins:
 #      bib_file: "refs.bib"
 #      cite_style: "pandoc"
 extra:
-    generator: false
+    generator: false  
 
 copyright: 2022 - TU Studio Team - Henrik von Coler, Paul Schuladen, Nils Tonnätt 
 

@@ -15,10 +15,9 @@
 3. In the machineroom turn on
     - Riviera: OscRouter, Ambisonics, WFS 1-64
     - Wintermute: WFS 65-192
-    - Taunus: Dante-Madi Conversion
 4. In the machineroom set MADI-Bridge
+    - Out 8 <- In 1 (SeamLess mode)
     - Out 8 <- In 7 (Madiface Direct)
-    - Out 8 <- In 1 (seamless mode)
 5. Turn on
     - Ambisonics speaker with switch besides the door
     - WFS-Panels with switches under the Dante-Network switch

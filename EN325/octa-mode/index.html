@@ -365,19 +365,6 @@
     Quickguide Octachannel System
   </a>
   
-    <nav class="md-nav" aria-label="Quickguide Octachannel System">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
-    Troubleshooting
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -496,19 +483,6 @@
     Quickguide Octachannel System
   </a>
   
-    <nav class="md-nav" aria-label="Quickguide Octachannel System">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#troubleshooting" class="md-nav__link">
-    Troubleshooting
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -538,51 +512,22 @@
 <h2 id="quickguide-octachannel-system">Quickguide Octachannel System</h2>
 <ol>
 <li>Turn the power key to I (beside the door)</li>
-<li>Plugin the USB-Cable from the AudioInterface (Scarlett 18i20, 1st Gen)<ul>
-<li>The audio device is class compliant and can therefore used by linux (and in theory mac) users without driver</li>
-<li>Windows and Mac User can download a <a href="https://downloads.focusrite.com/focusrite/scarlett-1st-gen/scarlett-18i20-1st-gen">driver and control application here</a></li>
-<li>The application is not M1-mac compatible (s. troubleshooting)</li>
+<li>Plugin USB-MADIface<ul>
+<li>Options -&gt; Reset Mix -&gt; Straight Playback (when connected the first time)</li>
+<li>Outputfader can be linked to create a "masterfader"</li>
+<li>Make sure the faders are not set to 0 dB. This is very loud! Start from low levels!</li>
 </ul>
 </li>
-<li>Turn on the speakers by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control terminal<ul>
-<li>The HEDD speaker were on channel 1-8</li>
-<li>The Subwoofers were on channel 9-10</li>
+<li>In the machineroom set MADI-Bridge<ul>
+<li>Out 8 &lt;- In 7 (Madiface Direct)</li>
 </ul>
 </li>
-<li><strong>Do not change the internal routing of the interface</strong></li>
+<li>Turn on the speakers by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control terminal</li>
+<li>Play back audio throught the MADIface USB<ul>
+<li>The HEDD speakers are on channel 25-32</li>
+</ul>
+</li>
 </ol>
-<h3 id="troubleshooting">Troubleshooting</h3>
-<ul>
-<li>After installing the driver it asks for firmware update<ul>
-<li>Yes do it.</li>
-<li>Update fails or similiar?<ul>
-<li>try the older or newer version of the driver from focusrite.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>The interface does not appear on my system<ul>
-<li>Turn it off, disconnect USB, turn it on, plug in USB</li>
-</ul>
-</li>
-<li>The interface is connected but I don't hear anything<ul>
-<li>Make sure the internal routing is set correctly<ul>
-<li>Use alsamixer in linux</li>
-<li>Use Scarlett Mixcontrol</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Apple-M1 User: in generally the interface works but you are not able to control the internal settings. If running into problems with software not playing back on all channels try to change the number of input/output channels in Apples "Audio MIDI Setup". </li>
-<li>I don't hear anything. Make sure...<ul>
-<li>the speaker are turned on (HEDD speaker should have a small green LED on the front)</li>
-<li>in your audio-software/systemsetting the right device is set</li>
-<li>in Alsamixer/ScarlettMixcontrol the routing is right</li>
-<li>the Master Volume(s) are not muted/set to 0 in alsamixer.</li>
-<li>the Hardware Volume knob at the interface itself is turned full to the right.</li>
-</ul>
-</li>
-</ul>
 
 
 

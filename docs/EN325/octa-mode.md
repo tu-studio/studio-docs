@@ -15,3 +15,4 @@
 4. Turn on the speakers by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control terminal
 5. Play back audio throught the MADIface USB
     - The HEDD speakers are on channel 25-32
+    - If you want to use the subs, they are on channels 23 and 24.

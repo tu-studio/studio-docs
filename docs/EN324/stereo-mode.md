@@ -1,8 +1,8 @@
 # E-N 324 Stereo Mode
 
-## Important
-- Make sure the power is turned off (power key 0) when leaving the studio
-- Leave the place tidy (e.g. move table back, move chairs to the back)
+!!! warning "Important"  
+    - Make sure the power is turned off (power key 0) when leaving the studio
+    - Leave the place tidy (e.g. move table back, move chairs to the back)
 
 ### Easymode
 1. Turn the power key to I (beside the door)

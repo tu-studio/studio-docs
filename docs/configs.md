@@ -1,0 +1,27 @@
+# Config Files
+
+## Speaker Positions
+- Small Studio Dome [xyz](configs/small_studio_speakers_xyz.csv){:download="speakerpositions_small_studio_xyz.csv"}/[aed](configs/small_studio_speakers_aed.csv){:download="speakerpositions_small_studio_aed.csv"}
+- Large Studio Dome: [xyz](configs/large_studio_speakers_xyz.csv){:download="speakerpositions_large_studio_xyz.csv"}/[aed](configs/large_studio_speakers_aed.csv){:download="speakerpositions_large_studio_aed.csv"}
+    - coordinate origin is set below the ceiling speaker, 1.13m above the ground
+
+## IEM Decoder
+The following configs are needed to use the [IEM Plugin Suite](https://plugins.iem.at/) in the studios:
+
+- [Large Studio Dome](configs/Large_Studio_Dome.json){:download="large_studio_dome.json"}
+- [Small Studio Dome](configs/Small_Studio_Dome.json){:download="small_studio_dome.json"}
+- [Small Studio Ring](configs/Small_Studio_8Ring.json){:download="small_studio_ring.json"}
+
+To load one of these configs
+
+1. start your desired decoder (eg. the AllRADecoder)
+2. press import
+3. select your config file
+4. in the section "Calculate Decoder" set the Decoder order to your desired order
+5. press "Calculate Decoder"
+
+## TotalMix
+These configs are used to control the MADIface USB in the small studio:
+
+- [Seamless Mode](configs/Small_Studio_TotalMix_Seamless.tmws){:download="small_studio_totalmix_seamless.tmws"}
+- TODO add config for direct mode

@@ -1,43 +1,48 @@
+---
 site_name: TU Studio Documentation
 repo_url: https://github.com/TU-Studio/studio-docs
+site_url: https://tu-studio.github.io/studio-docs/
 
 theme:
-    name: material
-    highlightjs: true
-    logo: graphics/studio-logo.png
+  name: material
+  language: en
+  # highlightjs: true
+  logo: graphics/studio-logo.png
+  favicon: graphics/studio-logo.png
+  palette:
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
 
-plugins:
-     - with-pdf
-#    - search
-#    - mkpdfs
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.footer
 
-# bibtex:
-#      bib_file: "refs.bib"
-#      cite_style: "pandoc"
 extra:
-    generator: false  
+  generator: false
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:studio@ak.tu-berlin.de
 
-copyright: 2022 - TU Studio Team - Henrik von Coler, Paul Schuladen, Nils Tonnätt 
+extra_css:
+  - stylesheets/extra.css
+
+copyright: 2023 - TU Studio Team - Henrik von Coler, Fares Schulz, Max Weidauer #Paul Schuladen, Nils Tonnätt
 
 markdown_extensions:
+  - admonition
   - attr_list
   - pymdownx.arithmatex:
       generic: true
-#docs:
-#    ../graphics/
-#      hufo_flow_1.png
-
-# nav:
-# #    - Back to Project Page: https://hvc.berlin/projects/hufo-listening-room/
-#     - About the System: about.md
-#     - Reaper User Guide: reaper.md
-#     - SeamLess Plugins:
-#       - Plugins: plugins.md
-#       - OSC Paths: paths.md
-#     - Technical Documentation:
-#       - Signal Flow: signalflow.md
-#       - SuperCollider: supercollider.md
-#       - WFS/WONDER: wonder.md
-#       - Reverb: reverb.md
-#       - OSC Router: oscrouter.md
-#       - System Setup: system_setup.md

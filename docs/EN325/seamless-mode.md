@@ -1,32 +1,48 @@
 # E-N 325 Seamless Mode
 
-## Important
+!!! warning "Important"   
+    - Turn off the WFS-Panels and ALL speakers when leaving!
+    - Make sure the power is turned off (power key 0) when leaving the studio
+    - Leave the place tidy (e.g. move table back, move chairs to the back)
 
-- Turn off the WFS-Panels when leaving
-- Make sure the power is turned off (power key 0) when leaving the studio
-- Leave the place tidy (e.g. move table back, move chairs to the back)
+## First Steps
+1. Connect your Computer to the interface (MADIface USB)
+2. Turn the power key to I (beside the door)
+3. *(if not already installed)* Install [drivers](https://www.rme-audio.de/de_madiface-usb.html) for the MADIface (not the firmware update)
 
-## Quickguide Seamless System
+## User Guide Seamless Mode
+1. Download correct TotalMix config [here](../configs.md) and import it into TotalMix
+2. Make sure all Fadergroups are turned down
+3. In the machineroom:
+    1. Set MADI-Bridge to preset 2
+    2. Hold the *recall* button to load the preset
+        <!-- TODO insert foto -->
+    3. Turn on the rendering servers:
+        - Riviera: OscRouter, Ambisonics, WFS 1-64
+        - Wintermute: WFS 65-192
 
-1. Turn the power key to I (beside the door)
-2. Plugin USB-MADIface
-    - Options -> Reset Mix -> Straight Playback (when connected the first time)
-    - Outputfader can be linked to create a "masterfader"
-3. In the machineroom turn on
-    - Riviera: OscRouter, Ambisonics, WFS 1-64
-    - Wintermute: WFS 65-192
-4. In the machineroom set MADI-Bridge
-    - Out 8 <- In 1 (SeamLess mode)
-    - Out 8 <- In 7 (Madiface Direct)
-5. Turn on
-    - Ambisonics speaker with switch besides the door
+4. Turn on
+    - Ambisonics speakers with switch besides the door
     - WFS-Panels with switches under the Dante-Network switch
+5. *(if not already installed)* Download the [Seamless Plugin Suite](https://github.com/TU-Studio/seamless-plugin-suite/releases/latest) for your Operating System
+    1. Extract the Zip file
+    2. Move the VST3 to your system VST3 folder or use the standalone Plugins
+
 6. The seamless system is controled via OSC e.g. with the seamless plugins
     - ip-address: xxx.xxx.xxx.24
     - port (oscrouter): 4455
-    - port (reverb/master): 57120
+    - Set OSC Send Interval to 0 
+
 7. play audio through madiface
-    - 1-32 Sources
-    - 33-36 Ambisonics 1st Order
-    - 37-52 Ambisonics 3rd Order
-    - 53 LFE direct
+
+    | Channels | Seamless Mapping |
+    | ---- | ---- |
+    | 1-32 | Sources |
+    | 33-36 | Ambisonics 1st Order |
+    | 37-52 | Ambisonics 3rd Order |
+    | 53 | LFE direct |
+
+8. When Leaving:
+    - turn off the WFS-Panels and ALL speakers
+    - turn off the power using the power key (set to 0)
+    - leave the space tidy

@@ -1,0 +1,89 @@
+{
+  "Name": "All-Round Ambisonic decoder (AllRAD) and loudspeaker layout",
+  "Description": "This configuration file was created with the IEM AllRADecoder v0.7.5 plug-in. 24 Jul 2019 3:15:15pm",
+  "LoudspeakerLayout": {
+    "Name": "EN-325 HEDD Loudspeaker Layout",
+    "Loudspeakers": [
+      {
+        "Azimuth": 4.5e1,
+        "Elevation": 0,
+        "Radius": 1,
+        "IsImaginary": false,
+        "Channel": 1,
+        "Gain": 1
+      },
+      {
+        "Azimuth": 0,
+        "Elevation": 0,
+        "Radius": 1,
+        "IsImaginary": false,
+        "Channel": 2,
+        "Gain": 1
+      },
+      {
+        "Azimuth": -4.5e1,
+        "Elevation": 0,
+        "Radius": 1,
+        "IsImaginary": false,
+        "Channel": 3,
+        "Gain": 1
+      },
+      {
+        "Azimuth": -9e1,
+        "Elevation": 0,
+        "Radius": 1,
+        "IsImaginary": false,
+        "Channel": 4,
+        "Gain": 1
+      },
+      {
+        "Azimuth": -1.35e2,
+        "Elevation": 0,
+        "Radius": 1,
+        "IsImaginary": false,
+        "Channel": 5,
+        "Gain": 1
+      },
+      {
+        "Azimuth": 1.8e2,
+        "Elevation": 0,
+        "Radius": 1,
+        "IsImaginary": false,
+        "Channel": 6,
+        "Gain": 1
+      },
+      {
+        "Azimuth": 1.35e2,
+        "Elevation": 0,
+        "Radius": 1,
+        "IsImaginary": false,
+        "Channel": 7,
+        "Gain": 1
+      },
+      {
+        "Azimuth": 9e1,
+        "Elevation": 0,
+        "Radius": 1,
+        "IsImaginary": false,
+        "Channel": 8,
+        "Gain": 1
+      },
+      {
+        "Azimuth": 0,
+        "Elevation": 9e1,
+        "Radius": 1,
+        "IsImaginary": true,
+        "Channel": 9,
+        "Gain": 0
+      },
+      {
+        "Azimuth": 0,
+        "Elevation": -9e1,
+        "Radius": 1,
+        "IsImaginary": true,
+        "Channel": 10,
+        "Gain": 0
+      }
+    ]
+  }
+}

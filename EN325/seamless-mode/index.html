@@ -643,7 +643,7 @@
 <p>In the machineroom:</p>
 <ol>
 <li>Set MADI-Bridge to preset 2</li>
-<li>Hold the <em>recall</em> button to load the preset
+<li>Hold the <em>recall</em> button to load the preset (not the <em>store</em> button!)
     <!-- TODO insert foto --></li>
 <li>Turn on the rendering servers:<ul>
 <li>Riviera: OscRouter, Ambisonics, WFS 1-64</li>
@@ -667,15 +667,15 @@
 </ol>
 </li>
 <li>
-<p>The seamless system is controled via OSC e.g. with the seamless plugins</p>
+<p>The seamless system is controled via OSC with the seamless plugins – first configurte the main plugin:</p>
 <ul>
-<li>ip-address: xxx.xxx.xxx.24</li>
-<li>port (oscrouter): 4455</li>
-<li>Set OSC Send Interval to 0 </li>
+<li>Set the OSC Send Adress to the Address of the OSC-Router</li>
+<li>Ip-address: xxx.xxx.xxx.24</li>
+<li>Port (oscrouter): 4455</li>
 </ul>
 </li>
 <li>
-<p>play audio through madiface</p>
+<p>Play audio through the madiface</p>
 <table>
 <thead>
 <tr>
@@ -702,6 +702,15 @@
 </tr>
 </tbody>
 </table>
+</li>
+<li>
+<p>Use a client plugin on each track to contol the gain of the HOA and WFS System as well as the position of the source</p>
+<ul>
+<li>Set the Source Index to the channel number of the source</li>
+<li>Set the HOA Gain to the desired gain of the HOA System</li>
+<li>Set the WFS Gain to the desired gain of the WFS System</li>
+<li>Position the source</li>
+</ul>
 </li>
 <li>
 <p>When Leaving:</p>

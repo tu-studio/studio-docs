@@ -1,11 +1,13 @@
 # Config Files
 
 ## Speaker Positions
+
 - Small Studio Dome [xyz](configs/small_studio_speakers_xyz.csv){:download="speakerpositions_small_studio_xyz.csv"}/[aed](configs/small_studio_speakers_aed.csv){:download="speakerpositions_small_studio_aed.csv"}
 - Large Studio Dome: [xyz](configs/large_studio_speakers_xyz.csv){:download="speakerpositions_large_studio_xyz.csv"}/[aed](configs/large_studio_speakers_aed.csv){:download="speakerpositions_large_studio_aed.csv"}
     - coordinate origin is set below the ceiling speaker, 1.13m above the ground
 
 ## IEM Decoder
+
 The following configs are needed to use the [IEM Plugin Suite](https://plugins.iem.at/) in the studios:
 
 - [Large Studio Dome](configs/Large_Studio_Dome.json){:download="large_studio_dome.json"}
@@ -20,8 +22,16 @@ To load one of these configs
 4. in the section "Calculate Decoder" set the Decoder order to your desired order
 5. press "Calculate Decoder"
 
-## TotalMix
-These configs are used to control the MADIface USB in the small studio:
+## TotalMix Workspaces
 
-- [Seamless Mode](configs/Small_Studio_TotalMix_Seamless.tmws){:download="small_studio_totalmix_seamless.tmws"}
-- TODO add config for direct mode
+These workspaces are used to control the MADIface USB in the small studio:
+
+- [EN325 Direct Mode](configs/tu_studio_EN325_direct.tmws){:download="tu_studio_EN325_direct.tmws"}
+- [EN325 Seamless Mode](configs/tu_studio_EN325_seamless.tmws){:download="tu_studio_EN325_seamless.tmws"}
+
+To load a workspace in the TotalMix FX software:
+
+1. Open TotalMix FX
+2. Click on the "File" button (top left)
+3. Click on "Load Workspace"
+4. Select the workspace file

@@ -22,7 +22,7 @@ Using this mode, both the ambisonics dome and the WFS-system can be controlled u
 
 3. In the machineroom:
     1. Set MADI-Bridge to preset 2
-    2. Hold the *recall* button to load the preset
+    2. Hold the *recall* button to load the preset (not the *store* button!)
         <!-- TODO insert foto -->
     3. Turn on the rendering servers:
         - Riviera: OscRouter, Ambisonics, WFS 1-64
@@ -38,11 +38,12 @@ Using this mode, both the ambisonics dome and the WFS-system can be controlled u
 6. The seamless system is controled via OSC e.g. with the seamless plugins
     
     Your computer has to be in the wired network in the studio. On MacOS it might be necessary to disable WiFi.
-
+    First configure the main plugin:
+    - Set the OSC Send Adress to the Address of the OSC-Router
     - ip-address: xxx.xxx.xxx.24 (take the start from your own ip address)
     - port (oscrouter): 4455
 
-7. play audio through the MADIface
+7. Play audio through the MADIface
 
     | Channels | Seamless Mapping |
     | ---- | ---- |
@@ -51,7 +52,13 @@ Using this mode, both the ambisonics dome and the WFS-system can be controlled u
     | 37-52 | Ambisonics 3rd Order |
     | 53 | LFE direct |
 
-8. When Leaving:
+8. Use a client plugin on each track to contol the gain of the HOA and WFS System as well as the position of the source
+    - Set the Source Index to the channel number of the source
+    - Set the HOA Gain to the desired gain of the HOA System
+    - Set the WFS Gain to the desired gain of the WFS System
+    - Position the source
+
+9. When Leaving:
     - turn off the WFS-Panels and ALL speakers
     - turn off the power using the power key (set to 0)
         - this turns off the rendering servers as well

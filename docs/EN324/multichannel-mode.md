@@ -23,8 +23,9 @@
 7. Turn on the speaker by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control panel
     - The Neumann speaker should now glow slightly
     - Also turn on the subwoofer amplifier
-8. Volume adjustement
-    - DCA-1 - "Dome" for all speakers
+8. Play back audio using the KT-USB audio interface.
+    - Volume Adjustment can be done using the DCA-1 - "Dome" for all speakers on the Midas Mixer
+    - the positions of the speakers and configs for use with the IEM Plugins can be found [here](../configs.md)
 
 9. When Leaving turn the system off properly:
     1. Turn off the speakers by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control panel

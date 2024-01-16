@@ -1,18 +1,25 @@
 # E-N 325 Seamless Mode
 
+Using this mode, both the ambisonics dome and the WFS-system can be controlled using the same interface.
+
 !!! warning "Important"   
     - Turn off the WFS-Panels and ALL speakers when leaving!
     - Make sure the power is turned off (power key 0) when leaving the studio
     - Leave the place tidy (e.g. move table back, move chairs to the back)
 
 ## First Steps
-1. Connect your Computer to the interface (MADIface USB)
+1. Connect your Computer to the interface (MADIface USB) and the local Network using the USB-C Hub on the desk
 2. Turn the power key to I (beside the door)
 3. *(if not already installed)* Install [drivers](https://www.rme-audio.de/de_madiface-usb.html) for the MADIface (not the firmware update)
 
 ## User Guide Seamless Mode
 1. Download correct TotalMix config [here](../configs.md) and import it into TotalMix
 2. Make sure all Fadergroups are turned down
+4. Set the MADIface Settings to the correct values
+
+    ??? info "MADIface Settings"
+        ![Madiface Settings Screenshot](../graphics/madiface_settings_64mix.jpg){: style="width:400px"}
+
 3. In the machineroom:
     1. Set MADI-Bridge to preset 2
     2. Hold the *recall* button to load the preset
@@ -29,11 +36,13 @@
     2. Move the VST3 to your system VST3 folder or use the standalone Plugins
 
 6. The seamless system is controled via OSC e.g. with the seamless plugins
-    - ip-address: xxx.xxx.xxx.24
-    - port (oscrouter): 4455
-    - Set OSC Send Interval to 0 
+    
+    Your computer has to be in the wired network in the studio. On MacOS it might be necessary to disable WiFi.
 
-7. play audio through madiface
+    - ip-address: xxx.xxx.xxx.24 (take the start from your own ip address)
+    - port (oscrouter): 4455
+
+7. play audio through the MADIface
 
     | Channels | Seamless Mapping |
     | ---- | ---- |
@@ -45,4 +54,5 @@
 8. When Leaving:
     - turn off the WFS-Panels and ALL speakers
     - turn off the power using the power key (set to 0)
+        - this turns off the rendering servers as well
     - leave the space tidy

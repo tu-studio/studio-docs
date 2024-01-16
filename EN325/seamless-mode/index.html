@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../graphics/studio-logo.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.1">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.50c56a3b.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.45e1311d.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -621,6 +621,7 @@
 
 
 <h1 id="e-n-325-seamless-mode">E-N 325 Seamless Mode</h1>
+<p>Using this mode, both the ambisonics dome and the WFS-system can be controlled using the same interface.</p>
 <div class="admonition warning">
 <p class="admonition-title">Important</p>
 <ul>
@@ -631,7 +632,7 @@
 </div>
 <h2 id="first-steps">First Steps</h2>
 <ol>
-<li>Connect your Computer to the interface (MADIface USB)</li>
+<li>Connect your Computer to the interface (MADIface USB) and the local Network using the USB-C Hub on the desk</li>
 <li>Turn the power key to I (beside the door)</li>
 <li><em>(if not already installed)</em> Install <a href="https://www.rme-audio.de/de_madiface-usb.html">drivers</a> for the MADIface (not the firmware update)</li>
 </ol>
@@ -639,6 +640,13 @@
 <ol>
 <li>Download correct TotalMix config <a href="../../configs/">here</a> and import it into TotalMix</li>
 <li>Make sure all Fadergroups are turned down</li>
+<li>
+<p>Set the MADIface Settings to the correct values</p>
+<details class="info">
+<summary>MADIface Settings</summary>
+<p><img alt="Madiface Settings Screenshot" src="../../graphics/madiface_settings_64mix.jpg" style="width:400px" /></p>
+</details>
+</li>
 <li>
 <p>In the machineroom:</p>
 <ol>
@@ -667,15 +675,15 @@
 </ol>
 </li>
 <li>
-<p>The seamless system is controled via OSC with the seamless plugins – first configurte the main plugin:</p>
-<ul>
-<li>Set the OSC Send Adress to the Address of the OSC-Router</li>
-<li>Ip-address: xxx.xxx.xxx.24</li>
-<li>Port (oscrouter): 4455</li>
-</ul>
+<p>The seamless system is controled via OSC e.g. with the seamless plugins</p>
+<p>Your computer has to be in the wired network in the studio. On MacOS it might be necessary to disable WiFi.
+First configure the main plugin:
+- Set the OSC Send Adress to the Address of the OSC-Router
+- ip-address: xxx.xxx.xxx.24 (take the start from your own ip address)
+- port (oscrouter): 4455</p>
 </li>
 <li>
-<p>Play audio through the madiface</p>
+<p>Play audio through the MADIface</p>
 <table>
 <thead>
 <tr>
@@ -716,7 +724,10 @@
 <p>When Leaving:</p>
 <ul>
 <li>turn off the WFS-Panels and ALL speakers</li>
-<li>turn off the power using the power key (set to 0)</li>
+<li>turn off the power using the power key (set to 0)<ul>
+<li>this turns off the rendering servers as well</li>
+</ul>
+</li>
 <li>leave the space tidy</li>
 </ul>
 </li>

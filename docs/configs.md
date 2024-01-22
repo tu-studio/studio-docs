@@ -35,3 +35,12 @@ To load a workspace in the TotalMix FX software:
 2. Click on the "File" button (top left)
 3. Click on "Load Workspace"
 4. Select the workspace file
+
+## Reaper Template Projects
+These projects require the IEM Plugins and have a preset channel assignment for working in the studios:
+
+- [EN324 Template Project](configs/en324_reaper_template.RPP){:download="en324_reaper_template.RPP"}
+
+If Reaper complains about the plugins not being available simply replace the missing plugins with your installed copies, and import the correct config files in the AllRADecoder and the DistanceCompensator.
+
+To use the binaural decoder mute the main decoder channel and unmute the binaural decoder.

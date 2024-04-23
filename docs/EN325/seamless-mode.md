@@ -23,14 +23,20 @@ Using this mode, both the ambisonics dome and the WFS-system can be controlled u
 3. In the machineroom:
     1. Set MADI-Bridge to preset 2
     2. Hold the *recall* button to load the preset (not the *store* button!)
-        <!-- TODO insert foto -->
+    ??? info "MADI-Bridge"
+        ![Picture of MADI-Bridge Preset Selection](../graphics/madibridge.jpg){: style="width:600px"}
     3. Turn on the rendering servers:
-        - Riviera: OscRouter, Ambisonics, WFS 1-64
+        - Newmark: OscRouter, Ambisonics, WFS 1-64
         - Wintermute: WFS 65-192
 
 4. Turn on
-    - Ambisonics speakers with switch besides the door
-    - WFS-Panels with switches under the Dante-Network switch
+    - Ambisonics dome with the power switch besides the door
+    ??? info "Ambisonics Power Switch"
+        ![Picture of Ambisonics switch](../graphics/ambidome_switch.png){: style="width:600px"}
+    - WFS-Panels with the 12 power switches in the rack on the ground.
+    ??? info "WFS Power Switches"
+        ![Picture of WFS Power Rack](../graphics/wfs_power_switches.png){: style="width:600px"}
+        Power switches are marked in red.
 5. *(if not already installed)* Download the [Seamless Plugin Suite](https://github.com/TU-Studio/seamless-plugin-suite/releases/latest) for your Operating System
     1. Extract the Zip file
     2. Move the VST3 to your system VST3 folder or use the standalone Plugins
@@ -40,7 +46,7 @@ Using this mode, both the ambisonics dome and the WFS-system can be controlled u
     Your computer has to be in the wired network in the studio. On MacOS it might be necessary to disable WiFi.
     First configure the main plugin:
     - Set the OSC Send Adress to the Address of the OSC-Router
-    - ip-address: xxx.xxx.xxx.24 (take the start from your own ip address)
+    - ip-address: newmark.ak.tu-berlin.de
     - port (oscrouter): 4455
 
 7. Play audio through the MADIface

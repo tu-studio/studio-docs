@@ -2,7 +2,7 @@
     "Name": "Loudspeaker Layout for AllRA Decoder",
     "Description": "This configuration file was created with a hacky script, hopefully it works",
     "LoudspeakerLayout": {
-        "Name": "EN-324 Loudspeaker Layout",
+        "Name": "EN-324 Dome Loudspeaker Layout",
         "Loudspeakers": [
             {
                 "Azimuth": -6.2,
@@ -69,7 +69,7 @@
                 "Gain": 1.0
             },
             {
-                "Azimuth": 0.0,
+                "Azimuth": -0.0,
                 "Elevation": 17.5,
                 "Radius": 3.2,
                 "IsImaginary": false,
@@ -165,7 +165,7 @@
                 "Gain": 1.0
             },
             {
-                "Azimuth": 0.0,
+                "Azimuth": -0.0,
                 "Elevation": 90.0,
                 "Radius": 1.56,
                 "IsImaginary": false,

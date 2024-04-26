@@ -33,7 +33,7 @@ Using this mode, both the ambisonics dome and the WFS-system can be controlled u
     - Ambisonics dome with the power switch besides the door
     ??? info "Ambisonics Power Switch"
         ![Picture of Ambisonics switch](../graphics/ambidome_switch.png){: style="width:600px"}
-    - WFS-Panels with the 12 power switches in the rack on the ground.
+    - WFS-Panels with the 12 power switches in the rack on the ground. The UP position is ON, the DOWN position is OFF. 
     ??? info "WFS Power Switches"
         ![Picture of WFS Power Rack](../graphics/wfs_power_switches.png){: style="width:600px"}
         Power switches are marked in red.

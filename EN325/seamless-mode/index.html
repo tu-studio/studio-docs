@@ -622,6 +622,7 @@
 
 <h1 id="e-n-325-seamless-mode">E-N 325 Seamless Mode</h1>
 <p>Using this mode, both the ambisonics dome and the WFS-system can be controlled using the same interface.</p>
+<p>Up to 32 channels of mono-audio are sent to the rendering computers, which are controlled with the specialized Seamless-Plugins.</p>
 <div class="admonition warning">
 <p class="admonition-title">Important</p>
 <ul>
@@ -675,7 +676,7 @@
 <p><img alt="Picture of Ambisonics switch" src="../../graphics/ambidome_switch.png" style="width:600px" /></p>
 </details>
 <ul>
-<li>WFS-Panels with the 12 power switches in the rack on the ground.</li>
+<li>WFS-Panels with the 12 power switches in the rack on the ground. The UP position is ON, the DOWN position is OFF. </li>
 </ul>
 <details class="info">
 <summary>WFS Power Switches</summary>
@@ -691,12 +692,16 @@ Power switches are marked in red.</p>
 </ol>
 </li>
 <li>
-<p>The seamless system is controled via OSC e.g. with the seamless plugins</p>
-<p>Your computer has to be in the wired network in the studio. On MacOS it might be necessary to disable WiFi.
-First configure the main plugin:
-- Set the OSC Send Adress to the Address of the OSC-Router
-- ip-address: newmark.ak.tu-berlin.de
-- port (oscrouter): 4455</p>
+<p>The seamless system is controled via OSC e.g. with the seamless plugins.</p>
+<ul>
+<li>Your computer has to be in the wired network in the studio. On MacOS it might be necessary to disable WiFi.
+First configure the main plugin:<ul>
+<li>Set the OSC Send Adress to the Address of the OSC-Router</li>
+<li>ip-address: newmark.ak.tu-berlin.de</li>
+<li>port (oscrouter): 4455</li>
+</ul>
+</li>
+</ul>
 </li>
 <li>
 <p>Play audio through the MADIface</p>

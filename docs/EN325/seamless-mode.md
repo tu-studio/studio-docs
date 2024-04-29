@@ -2,6 +2,8 @@
 
 Using this mode, both the ambisonics dome and the WFS-system can be controlled using the same interface.
 
+Up to 32 channels of mono-audio are sent to the rendering computers, which are controlled with the specialized Seamless-Plugins.
+
 !!! warning "Important"   
     - Turn off the WFS-Panels and ALL speakers when leaving!
     - Make sure the power is turned off (power key 0) when leaving the studio
@@ -41,13 +43,12 @@ Using this mode, both the ambisonics dome and the WFS-system can be controlled u
     1. Extract the Zip file
     2. Move the VST3 to your system VST3 folder or use the standalone Plugins
 
-6. The seamless system is controled via OSC e.g. with the seamless plugins
-    
-    Your computer has to be in the wired network in the studio. On MacOS it might be necessary to disable WiFi.
+6. The seamless system is controled via OSC e.g. with the seamless plugins.
+    - Your computer has to be in the wired network in the studio. On MacOS it might be necessary to disable WiFi.
     First configure the main plugin:
-    - Set the OSC Send Adress to the Address of the OSC-Router
-    - ip-address: newmark.ak.tu-berlin.de
-    - port (oscrouter): 4455
+        - Set the OSC Send Adress to the Address of the OSC-Router
+        - ip-address: newmark.ak.tu-berlin.de
+        - port (oscrouter): 4455
 
 7. Play audio through the MADIface
 

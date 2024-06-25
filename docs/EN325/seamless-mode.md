@@ -4,6 +4,14 @@ Using this mode, both the ambisonics dome and the WFS-system can be controlled u
 
 Up to 32 channels of mono-audio are sent to the rendering computers, which are controlled with the specialized Seamless-Plugins.
 
+The channel layout is as follows:
+
+| Channels | Seamless Mapping |
+| ---- | ---- |
+| 1-32 | (Mono) Sources |
+| 33-49 | Encoded 3rd Order Ambisonics |
+| 50 | LFE direct |
+
 !!! warning "Important"   
     - Turn off the WFS-Panels and ALL speakers when leaving!
     - Make sure the power is turned off (power key 0) when leaving the studio
@@ -52,12 +60,7 @@ Up to 32 channels of mono-audio are sent to the rendering computers, which are c
 
 7. Play audio through the MADIface
 
-    | Channels | Seamless Mapping |
-    | ---- | ---- |
-    | 1-32 | Sources |
-    | 33-36 | Ambisonics 1st Order |
-    | 37-52 | Ambisonics 3rd Order |
-    | 53 | LFE direct |
+
 
 8. Use a client plugin on each track to contol the gain of the HOA and WFS System as well as the position of the source
     - Set the Source Index to the channel number of the source

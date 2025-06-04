@@ -1,5 +1,7 @@
 # Config Files
+
 ## Speaker Positions
+
 ??? info "About the coordinate formats"
     Speaker Positions for the studios are supplied both in cartesian and in spherical coordinate systems.
     #### Cartesian:

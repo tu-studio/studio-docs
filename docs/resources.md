@@ -2,9 +2,9 @@
 
 ## SynLab
 
-The following handbook provides explanation and help on how to use SynLab effectively. It has notes about broken features and a SynLab to Eurorack translation:
-
 ### SynLab User Handbook
+
+The following handbook provides explanation and help on how to use SynLab effectively. It has notes about broken features and a SynLab to Eurorack translation:
 
 - [SynLab User Handbook](resources/SynLab/SynLab_Handbook.pdf){:download="SynLab_Handbook.pdf"}
 

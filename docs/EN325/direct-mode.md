@@ -35,10 +35,15 @@ They follow this audio channel layout:
         ![Picture of MADI-Bridge Preset Selection](../graphics/madibridge.jpg){: style="width:600px"}
 
 5. Turn on the speakers that you want to use
-    - Octa HEDD Speakers: by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control terminal
+    - Octa HEDD Speakers: by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control panel
+
+        ??? info "control panel
+            TODO include picture of control panel
+
     - Ambisonics dome with the switch beside the door     
-    ??? info "Ambisonics Power Switch"
-        ![Picture of Ambisonics switch](../graphics/ambidome_switch.png){: style="width:600px"}
+    
+        ??? info "Ambisonics Power Switch"
+            ![Picture of Ambisonics switch](../graphics/ambidome_switch.png){: style="width:600px"}
 
 6. Play back audio throught the MADIface USB
     - the positions of the speakers and configs for use with the IEM Plugins can be found [here](../configs.md)

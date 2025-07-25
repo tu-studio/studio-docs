@@ -22,10 +22,12 @@
 
 7. Turn on the speaker by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control panel
     
-    ??? info "control panel"
-        TODO include picture of control panel
+    ??? info "Speaker and Room Control Panel"
+        ![Picture of the control panel](../graphics/large-studio-control-panel.jpg){: style="width:600px"}
+
     
     - The Neumann speaker should now glow slightly
+
 8. Turn on the subwoofer amplifier
    
     ??? info "subwoofer amplifier"

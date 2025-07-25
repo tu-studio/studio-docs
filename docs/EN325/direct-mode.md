@@ -37,8 +37,8 @@ They follow this audio channel layout:
 5. Turn on the speakers that you want to use
     - Octa HEDD Speakers: by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control panel
 
-        ??? info "control panel
-            TODO include picture of control panel
+        ??? info "Speaker and Room Control Panel"
+            ![Picture of the control panel](../graphics/small-studio-control-panel.jpg){: style="width:600px"}
 
     - Ambisonics dome with the switch beside the door     
     

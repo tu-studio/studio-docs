@@ -27,7 +27,7 @@ The channel layout is as follows:
 
 ## User Guide Seamless Mode
 
-1. Download correct TotalMix config [here](../configs.md) and import it into TotalMix
+1. Download correct TotalMix config [here](../configs.md#totalmix-workspaces) and import it into TotalMix
 2. Make sure all Fadergroups are turned down
 3. Set the MADIface Settings to the correct values
 
@@ -70,7 +70,10 @@ The channel layout is as follows:
 8. The seamless system is controled via OSC e.g. with the seamless plugins.
 
     - Your computer has to be in the wired network in the studio. On MacOS it might be necessary to disable WiFi.
-      First configure the main plugin: - Set the OSC Send Adress to the Address of the OSC-Router - ip-address: riviera.ak.tu-berlin.de - port (oscrouter): 4455
+      First configure the main plugin: 
+      - Set the OSC Send Adress to the Address of the OSC-Kreuz 
+        - hostname: `riviera.ak.tu-berlin.de` 
+        - port: `4455`
 
 9. Play audio through the MADIface
 

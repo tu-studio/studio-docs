@@ -15,8 +15,8 @@
 3. Load the desired scene with the [midas mixer](https://www.midasconsoles.com/product.html?modelCode=P0BI9)
     1. Press scenes
     2. Press right-arrow key
-    3. scroll with left knob to the scene
-    4. load the scene by pressing the left knob and confirming with the right-arrow key
+    3. Scroll with left knob to the scene
+    4. Load the scene by pressing the left knob and confirming with the right-arrow key
 4. Press "Group DCA 1-8" Button to shows the master fader
 5. Roll the white table to the desired position (be careful not to roll over cable)
 
@@ -31,16 +31,17 @@
 8. Turn on the subwoofer amplifier
    
     ??? info "subwoofer amplifier"
-        TODO include picture of subwoofer amp
+        ![Picture of the amplifier](../graphics/sub-woofer-amplifier.jpeg){: style="width:600px"}
 
 9.  Play back audio using the KT-USB audio interface.
     - Volume Adjustment can be done using the DCA-1 - "Dome" for all speakers on the Midas Mixer
-    - the positions of the speakers and configs for use with the IEM Plugins can be found [here](../configs.md)
+    - The positions of the speakers and configs for use with the IEM Plugins can be found [here](../configs.md)
 
 10. When Leaving turn the system off properly:
     1. Turn off the speakers by pressing "Lautsprecher 1" and "Lautsprecher 2" on the control panel
     2. Turn off the subwoofer amplifier
-    3. Turn the power key to 0 (beside the door)
+    3. Turn off the rack below the midas mixer
+    4. Turn the power key to 0 (beside the door)
 
 ## Scenes
 - Standard-21

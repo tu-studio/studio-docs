@@ -8,7 +8,7 @@
 ## Using the Studio in Multichannel Mode
 1. Connect your Computer to the AES50-USB interface
     - Linux and Mac work without driver
-    - Windows users need to download a [driver](https://mediadl.musictribe.com/download/software/klarkteknik/KT-USB/KLARK_TEKNIK_KT-USB_v5.12.0_2021-06-28_setup.zip)
+    - Windows users need to download a [driver](https://www.klarkteknik.com/en/products/0606-ACC)
     - The Mixer can be [remote controlled](https://www.midasconsoles.com/product.html?modelCode=P0BI9) when connected to ethernet.
 1. Turn the power key to I (beside the door)
 2. Turn on the rack below the [midas mixer](https://www.midasconsoles.com/product.html?modelCode=P0BI9) (switch is on the bottom left)
@@ -48,15 +48,15 @@
     Has Crossover
 
     | Channel | speaker |
-    |---|---|
-    |1-21 | KH120 |
+    | ------- | ------- |
+    | 1-21    | KH120   |
 
 - Standard-21 + 1
     No Crossover
 
     | Channel | speaker |
-    |---|---|
-    |1-21 | KH120 |
-    | 22 | Sub |
+    | ------- | ------- |
+    | 1-21    | KH120   |
+    | 22      | Sub     |
 
 

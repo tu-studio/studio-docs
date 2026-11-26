@@ -9,10 +9,10 @@
 1. Connect your Computer to the AES50-USB interface
     - Linux and Mac work without driver
     - Windows users need to download a [driver](https://mediadl.musictribe.com/download/software/klarkteknik/KT-USB/KLARK_TEKNIK_KT-USB_v5.12.0_2021-06-28_setup.zip)
-    - The Mixer can be [remote controlled](https://www.midasconsoles.com/product.html?modelCode=P0BI9) when connected to ethernet.
+    - The Mixer can be [remote controlled](https://www.midasconsoles.com/en/products/0603-AEF) when connected to ethernet.
 1. Turn the power key to I (beside the door)
-2. Turn on the rack below the [midas mixer](https://www.midasconsoles.com/product.html?modelCode=P0BI9) (switch is on the bottom left)
-3. Load the desired scene with the [midas mixer](https://www.midasconsoles.com/product.html?modelCode=P0BI9)
+2. Turn on the rack below the [midas mixer](https://www.midasconsoles.com/en/products/0603-AEF) (switch is on the bottom left)
+3. Load the desired scene with the [midas mixer](https://www.midasconsoles.com/en/products/0603-AEF)
     1. Press scenes
     2. Press right-arrow key
     3. Scroll with left knob to the scene

@@ -178,7 +178,7 @@
                 "Radius": 1.0,
                 "IsImaginary": true,
                 "Channel": 22,
-                "Gain": 1.0
+                "Gain": 0.0
             }
         ]
     }

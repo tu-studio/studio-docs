@@ -32,7 +32,8 @@ The channel layout is as follows:
 3. Set the MADIface Settings to the correct values
 
     ??? info "MADIface Settings"
-        ![Madiface Settings Screenshot](../graphics/madiface_settings_64mix.jpg){: style="width:400px"}
+        ![Madiface Settings Screenshot Windows](../graphics/madiface_settings_64mix.jpg){: style="width:400px"}
+        ![Madiface Settings Screenshot MacOS](../graphics/madiface_settings_macos.png){: style="width:400px"}
 
 4. In the machineroom:
 
@@ -66,6 +67,19 @@ The channel layout is as follows:
 
     1. Extract the Zip file
     2. Move the VST3 to your system VST3 folder or use the standalone Plugins
+    ??? info "SeamLess Plugins Troubleshooting"
+        ## On all platforms:
+        ### The Main Plugins shows 0 connected clients
+        Make sure you don't have another Main Plugin open somewhere else, for example in another REAPER Project Tab.
+
+        ## On MacOS:
+        ### the DAW crashes after a changing positions sometimes
+        Cisco Secure Client Content Filter might interfere with the sending of messages, try to disable the Content Filter under Filters & Proxies. 
+
+        ## On Windows 11:
+        ### Can't find Plugin in REAPER
+        You might need to allow the plugin to access the firewall first:
+        in REAPER go to Preferences -> Plu-ins -> VST -> There's an option somewhere for failed plugins, click on that, then select the SeamLess Main plugin, then in the windows firewall popup allow access.
 
 8. The seamless system is controled via OSC e.g. with the seamless plugins.
 
@@ -74,8 +88,10 @@ The channel layout is as follows:
       - Set the OSC Send Adress to the Address of the OSC-Kreuz 
         - hostname: `riviera.ak.tu-berlin.de` 
         - port: `4455`
+    !!! warning "WFS Power Switches"
+        Only ever run one instance of the seamless main plugin on your computer at a time!
 
-9. Play audio through the MADIface
+9.  Play audio through the MADIface
 
 10. Use a client plugin on each track to contol the gain of the HOA and WFS System as well as the position of the source
 
